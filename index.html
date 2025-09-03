@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>24/7 Emergency Plumbers Pretoria East & North West | Fast Response</title>
+    <meta name="description" content="Trusted 24/7 emergency plumbers in Pretoria East & North West. Fast response for blocked drains, burst pipes, geyser repairs. Call now 071 258 4684">
+    <meta name="keywords" content="emergency plumber pretoria, blocked drains pretoria, geyser repairs, burst pipes, plumbing services pretoria east">
+    <meta name="author" content="Plumbers Pretoria East North West">
+    <meta property="og:title" content="24/7 Emergency Plumbers Pretoria East & North West">
+    <meta property="og:description" content="Trusted emergency plumbing services in Pretoria. Available 24/7 for all plumbing emergencies.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://plumberspretoriaeast.co.za">
+    <link rel="canonical" href="https://plumberspretoriaeast.co.za">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/animejs/lib/anime.iife.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#1e40af',
+                        secondary: '#dc2626',
+                        accent: '#0284c7'
+                    },
+                    fontFamily: {
+                        sans: ['Poppins', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        .hero-bg {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://plus.unsplash.com/premium_photo-1683141410787-c4dbd2220487?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+            background-size: cover;
+            background-position: center;
+        }
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+        .testimonial-card {
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+        .floating {
+            animation: floating 3s ease-in-out infinite;
+        }
+        @keyframes floating {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0px); }
+        }
+    </style>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Plumbers Pretoria East North West",
+        "image": "https://plus.unsplash.com/premium_photo-1663045495725-89f23b57cfc5?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "telephone": "+27712584684",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Pretoria",
+            "addressRegion": "Gauteng",
+            "addressCountry": "ZA"
+        },
+        "url": "https://plumberspretoriaeast.co.za",
+        "openingHours": "Mo,Tu,We,Th,Fr,Sa,Su 00:00-23:59",
+        "priceRange": "$$",
+        "sameAs": [
+            "https://www.google.com/maps/place/Plumbers+Pretoria+East+North+West/data=!4m7!3m6!1s0x1ebfd9e9d60f4691:0x7067529d717de4e7!8m2!3d-25.7275265!4d28.1808927!16s%2Fg%2F11nxsk1t2_!19sChIJkUYP1unZvx4R5-R9cZ1SZ3A?authuser=0&hl=en&rclk=1"
+        ]
+    }
+    </script>
+</head>
+<body class="font-sans bg-gray-50">
+    <!-- Header -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center">
+                <h1 class="text-xl font-bold text-primary">Plumbers Pretoria East & North West</h1>
+            </div>
+            <div class="hidden md:flex items-center space-x-6">
+                <a href="#services" class="text-gray-700 hover:text-primary transition">Services</a>
+                <a href="#about" class="text-gray-700 hover:text-primary transition">About</a>
+                <a href="#testimonials" class="text-gray-700 hover:text-primary transition">Reviews</a>
+                <a href="#contact" class="text-gray-700 hover:text-primary transition">Contact</a>
+                <a href="tel:0712584684" class="bg-primary text-white px-4 py-2 rounded-full flex items-center hover:bg-blue-700 transition">
+                    <i data-feather="phone" class="mr-2"></i> 071 258 4684
+                </a>
+            </div>
+            <button class="md:hidden focus:outline-none" id="menu-toggle">
+                <i data-feather="menu" class="w-6 h-6"></i>
+            </button>
+        </div>
+        <!-- Mobile menu -->
+        <div class="md:hidden hidden bg-white w-full py-2 px-4 shadow-md" id="mobile-menu">
+            <a href="#services" class="block py-2 text-gray-700 hover:text-primary transition">Services</a>
+            <a href="#about" class="block py-2 text-gray-700 hover:text-primary transition">About</a>
+            <a href="#testimonials" class="block py-2 text-gray-700 hover:text-primary transition">Reviews</a>
+            <a href="#contact" class="block py-2 text-gray-700 hover:text-primary transition">Contact</a>
+            <a href="tel:0712584684" class="block bg-primary text-white px-4 py-2 rounded-full text-center my-2 hover:bg-blue-700 transition">
+                <i data-feather="phone" class="mr-2 inline"></i> Call Now
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-bg min-h-screen flex items-center text-white">
+        <div class="container mx-auto px-4 py-20 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6" data-aos="fade-up">24/7 Emergency Plumbing Services in Pretoria</h1>
+            <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto" data-aos="fade-up" data-aos-delay="100">
+                Fast, reliable plumbing solutions when you need them most. Available round the clock for all your plumbing emergencies.
+            </p>
+            <div class="flex flex-col md:flex-row justify-center gap-4" data-aos="fade-up" data-aos-delay="200">
+                <a href="tel:0712584684" class="bg-secondary hover:bg-red-700 text-white px-8 py-4 rounded-full text-lg font-semibold flex items-center justify-center transition">
+                    <i data-feather="phone" class="mr-2"></i> Call Now: 071 258 4684
+                </a>
+                <a href="https://wa.me/27712584684" class="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-full text-lg font-semibold flex items-center justify-center transition">
+                    <i data-feather="message-square" class="mr-2"></i> WhatsApp Us
+                </a>
+            </div>
+            <div class="mt-12" data-aos="fade-up" data-aos-delay="300">
+                <div class="inline-flex items-center bg-white bg-opacity-20 px-6 py-3 rounded-full backdrop-blur-sm">
+                    <i data-feather="clock" class="mr-2"></i>
+                    <span>Available 24/7 • Fast Response • Local Experts</span>
+                </div>
+            </div>
+            <div class="absolute bottom-10 left-0 right-0 flex justify-center">
+                <a href="#services" class="text-white animate-bounce">
+                    <i data-feather="chevron-down" class="w-10 h-10"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Our Plumbing Services</h2>
+                <div class="w-20 h-1 bg-primary mx-auto mb-6"></div>
+                <p class="text-gray-600 max-w-2xl mx-auto">
+                    Comprehensive plumbing solutions for residential and commercial properties in Pretoria East and North West.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="service-card bg-gray-50 rounded-xl p-8 transition duration-300 hover:border-primary border border-transparent">
+                    <div class="text-primary mb-4">
+                        <i data-feather="alert-triangle" class="w-10 h-10"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Emergency Plumbing</h3>
+                    <p class="text-gray-600">
+                        24/7 emergency response for burst pipes, severe leaks, and other urgent plumbing issues that can't wait.
+                    </p>
+                </div>
+                
+                <!-- Service 2 -->
+                <div class="service-card bg-gray-50 rounded-xl p-8 transition duration-300 hover:border-primary border border-transparent">
+                    <div class="text-primary mb-4">
+                        <i data-feather="droplet" class="w-10 h-10"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Blocked Drains</h3>
+                    <p class="text-gray-600">
+                        Expert drain cleaning and unblocking services using advanced equipment to clear stubborn blockages.
+                    </p>
+                </div>
+                
+                <!-- Service 3 -->
+                <div class="service-card bg-gray-50 rounded-xl p-8 transition duration-300 hover:border-primary border border-transparent">
+                    <div class="text-primary mb-4">
+                        <i data-feather="thermometer" class="w-10 h-10"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Geyser Repairs</h3>
+                    <p class="text-gray-600">
+                        Professional geyser installation, repairs, and maintenance to ensure hot water when you need it.
+                    </p>
+                </div>
+                
+                <!-- Service 4 -->
+                <div class="service-card bg-gray-50 rounded-xl p-8 transition duration-300 hover:border-primary border border-transparent">
+                    <div class="text-primary mb-4">
+                        <i data-feather="home" class="w-10 h-10"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Bathroom Renovations</h3>
+                    <p class="text-gray-600">
+                        Complete bathroom plumbing services including new installations, upgrades, and renovations.
+                    </p>
+                </div>
+                
+                <!-- Service 5 -->
+                <div class="service-card bg-gray-50 rounded-xl p-8 transition duration-300 hover:border-primary border border-transparent">
+                    <div class="text-primary mb-4">
+                        <i data-feather="settings" class="w-10 h-10"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Leaking Taps</h3>
+                    <p class="text-gray-600">
+                        Fixing dripping taps to save water and reduce your bills. All types of tap repairs and replacements.
+                    </p>
+                </div>
+                
+                <!-- Service 6 -->
+                <div class="service-card bg-gray-50 rounded-xl p-8 transition duration-300 hover:border-primary border border-transparent">
+                    <div class="text-primary mb-4">
+                        <i data-feather="check-circle" class="w-10 h-10"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Maintenance</h3>
+                    <p class="text-gray-600">
+                        Regular plumbing inspections and maintenance to prevent emergencies and extend system lifespan.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <a href="tel:0712584684" class="inline-flex items-center bg-primary hover:bg-blue-700 text-white px-8 py-3 rounded-full font-semibold transition">
+                    <i data-feather="phone" class="mr-2"></i> Get Help Now
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col lg:flex-row items-center">
+                <div class="lg:w-1/2 mb-10 lg:mb-0 lg:pr-10" data-aos="fade-right">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6">Trusted Plumbing Experts in Pretoria</h2>
+                    <div class="w-20 h-1 bg-primary mb-6"></div>
+                    <p class="text-gray-600 mb-4">
+                        With years of experience serving Pretoria East and North West, we've built a reputation for reliable, professional plumbing services you can count on.
+                    </p>
+                    <p class="text-gray-600 mb-6">
+                        Our team of licensed plumbers is equipped to handle any plumbing emergency, from minor leaks to major pipe bursts. We pride ourselves on quick response times and quality workmanship.
+                    </p>
+                    <div class="space-y-4">
+                        <div class="flex items-start">
+                            <i data-feather="check-circle" class="text-green-500 mr-3 mt-1"></i>
+                            <span class="text-gray-700">24/7 emergency service</span>
+                        </div>
+                        <div class="flex items-start">
+                            <i data-feather="check-circle" class="text-green-500 mr-3 mt-1"></i>
+                            <span class="text-gray-700">Fully licensed and insured</span>
+                        </div>
+                        <div class="flex items-start">
+                            <i data-feather="check-circle" class="text-green-500 mr-3 mt-1"></i>
+                            <span class="text-gray-700">Transparent pricing</span>
+                        </div>
+                        <div class="flex items-start">
+                            <i data-feather="check-circle" class="text-green-500 mr-3 mt-1"></i>
+                            <span class="text-gray-700">Quality workmanship guaranteed</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/2" data-aos="fade-left">
+                    <div class="relative">
+                        <img src="https://images.unsplash.com/photo-1676210134188-4c05dd172f89?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                             alt="Professional plumber working" 
+                             class="rounded-lg shadow-xl w-full">
+                        <div class="absolute -bottom-6 -right-6 bg-white p-6 rounded-lg shadow-lg hidden md:block">
+                            <div class="text-4xl font-bold text-primary">15+</div>
+                            <div class="text-gray-600">Years Experience</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Emergency CTA Section -->
+    <section class="py-16 bg-secondary text-white">
+        <div class="container mx-auto px-4 text-center">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-3xl md:text-4xl font-bold mb-6">Plumbing Emergency? We're Here to Help!</h2>
+                <p class="text-xl mb-8">
+                    Don't let a plumbing disaster ruin your day. Our team is on standby 24/7 to handle any emergency.
+                </p>
+                <div class="flex flex-col md:flex-row justify-center gap-4">
+                    <a href="tel:0712584684" class="bg-white hover:bg-gray-100 text-secondary px-8 py-4 rounded-full text-lg font-semibold flex items-center justify-center transition">
+                        <i data-feather="phone" class="mr-2"></i> Call Now: 071 258 4684
+                    </a>
+                    <a href="https://wa.me/27712584684" class="bg-black bg-opacity-20 hover:bg-opacity-30 text-white px-8 py-4 rounded-full text-lg font-semibold flex items-center justify-center transition">
+                        <i data-feather="message-square" class="mr-2"></i> WhatsApp Us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">What Our Customers Say</h2>
+                <div class="w-20 h-1 bg-primary mx-auto mb-6"></div>
+                <p class="text-gray-600 max-w-2xl mx-auto">
+                    Don't just take our word for it. Here's what our satisfied customers have to say about our services.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card bg-gray-50 rounded-xl p-8">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 flex">
+                            <i data-feather="star" class="w-5 h-5 fill-current"></i>
+                            <i data-feather="star" class="w-5 h-5 fill-current"></i>
+                            <i data-feather="star" class="w-5 h-5 fill-current"></i>
+                            <i data-feather="star" class="w-5 h-5 fill-current"></i>
+                            <i data-feather="star" class="w-5 h-5 fill-current"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-6">
+                        "Called at 2am for a burst pipe and they arrived within 30 minutes. Fixed the issue professionally and cleaned up afterwards. Highly recommend!"
+                    </p>
+                    <div class="flex items-center">
+                        <div class="bg-gray-200 rounded-full w-12 h-12 flex items-center justify-center mr-4">
+                            <i data-feather="user" class="text-gray-500"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-gray-800">Sarah K.</h4>
+                            <p class="text-gray-500 text-sm">Pretoria East</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card bg-gray-50 rounded-xl p-8">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 flex">
+                            <i data-feather="star" class="w-5 h-5 fill-current"></i>
+                            <i data-feather="star" class="w-5 h-5 fill-current"></i>
+                            <i data-feather="star" class="w-5 h-5 fill-current"></i>
+                            <i data-feather="star" class="w-5 h-5 fill-current"></i>
+                            <i data-feather="star" class="w-5 h-5 fill-current"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-6">
+                        "Our geyser stopped working on a Sunday evening. They came out immediately and had it fixed in no time. Excellent service and reasonable pricing."
+                    </p>
+                    <div class="flex items-center">
+                        <div class="bg-gray-200 rounded-full w-12 h-12 flex items-center justify-center mr-4">
+                            <i data-feather="user" class="text-gray-500"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-gray-800">James T.</h4>
+                            <p class="text-gray-500 text-sm">Pretoria North West</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card bg-gray-50 rounded-xl p-8">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 flex">
+                            <i data-feather="star" class="w-5 h-5 fill-current"></i>
+                            <i data-feather="star" class="w-5 h-5 fill-current"></i>
+                            <i data-feather="star" class="w-5 h-5 fill-current"></i>
+                            <i data-feather="star" class="w-5 h-5 fill-current"></i>
+                            <i data-feather="star" class="w-5 h-5 fill-current"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-6">
+                        "Had a persistent blocked drain that other plumbers couldn't fix. These guys came with the right equipment and solved the problem permanently. Very professional."
+                    </p>
+                    <div class="flex items-center">
+                        <div class="bg-gray-200 rounded-full w-12 h-12 flex items-center justify-center mr-4">
+                            <i data-feather="user" class="text-gray-500"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-gray-800">Michael B.</h4>
+                            <p class="text-gray-500 text-sm">Pretoria East</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <a href="https://www.google.com/maps/place/Plumbers+Pretoria+East+North+West/data=!4m7!3m6!1s0x1ebfd9e9d60f4691:0x7067529d717de4e7!8m2!3d-25.7275265!4d28.1808927!16s%2Fg%2F11nxsk1t2_!19sChIJkUYP1unZvx4R5-R9cZ1SZ3A?authuser=0&hl=en&rclk=1" 
+                   target="_blank" 
+                   rel="noopener noreferrer" 
+                   class="inline-flex items-center bg-primary hover:bg-blue-700 text-white px-8 py-3 rounded-full font-semibold transition">
+                    <i data-feather="star" class="mr-2"></i> Read More Google Reviews
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Frequently Asked Questions</h2>
+                <div class="w-20 h-1 bg-primary mx-auto mb-6"></div>
+                <p class="text-gray-600 max-w-2xl mx-auto">
+                    Answers to common questions about our plumbing services in Pretoria.
+                </p>
+            </div>
+            
+            <div class="max-w-3xl mx-auto">
+                <!-- FAQ Item 1 -->
+                <div class="mb-6 bg-white rounded-xl shadow-md overflow-hidden">
+                    <button class="faq-toggle w-full text-left p-6 focus:outline-none flex justify-between items-center">
+                        <h3 class="text-lg font-semibold text-gray-800">What areas do you service?</h3>
+                        <i data-feather="chevron-down" class="text-primary transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content px-6 pb-6 hidden">
+                        <p class="text-gray-600">
+                            We provide plumbing services throughout Pretoria East and North West, including all surrounding suburbs. If you're unsure if we cover your area, please give us a call to confirm.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 2 -->
+                <div class="mb-6 bg-white rounded-xl shadow-md overflow-hidden">
+                    <button class="faq-toggle w-full text-left p-6 focus:outline-none flex justify-between items-center">
+                        <h3 class="text-lg font-semibold text-gray-800">Do you charge call-out fees?</h3>
+                        <i data-feather="chevron-down" class="text-primary transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content px-6 pb-6 hidden">
+                        <p class="text-gray-600">
+                            We have a standard call-out fee that covers our travel and initial assessment. This fee is waived if you proceed with our recommended repairs. We'll always provide transparent pricing before any work begins.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 3 -->
+                <div class="mb-6 bg-white rounded-xl shadow-md overflow-hidden">
+                    <button class="faq-toggle w-full text-left p-6 focus:outline-none flex justify-between items-center">
+                        <h3 class="text-lg font-semibold text-gray-800">How quickly can you respond to emergencies?</h3>
+                        <i data-feather="chevron-down" class="text-primary transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content px-6 pb-6 hidden">
+                        <p class="text-gray-600">
+                            For emergency situations like burst pipes or severe leaks, we aim to be on-site within 60 minutes in most cases. Our average response time is 45 minutes during normal hours.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 4 -->
+                <div class="mb-6 bg-white rounded-xl shadow-md overflow-hidden">
+                    <button class="faq-toggle w-full text-left p-6 focus:outline-none flex justify-between items-center">
+                        <h3 class="text-lg font-semibold text-gray-800">Are your plumbers licensed and insured?</h3>
+                        <i data-feather="chevron-down" class="text-primary transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content px-6 pb-6 hidden">
+                        <p class="text-gray-600">
+                            Yes, all our plumbers are fully licensed and insured. We carry comprehensive liability insurance to protect both our team and your property during any work we undertake.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 5 -->
+                <div class="mb-6 bg-white rounded-xl shadow-md overflow-hidden">
+                    <button class="faq-toggle w-full text-left p-6 focus:outline-none flex justify-between items-center">
+                        <h3 class="text-lg font-semibold text-gray-800">Do you offer warranties on your work?</h3>
+                        <i data-feather="chevron-down" class="text-primary transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content px-6 pb-6 hidden">
+                        <p class="text-gray-600">
+                            All our work comes with a 12-month guarantee. If any issues arise related to our workmanship within this period, we'll return to fix it at no additional cost.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Contact Us</h2>
+                <div class="w-20 h-1 bg-primary mx-auto mb-6"></div>
+                <p class="text-gray-600 max-w-2xl mx-auto">
+                    Get in touch for all your plumbing needs in Pretoria. We're here to help 24 hours a day, 7 days a week.
+                </p>
+            </div>
+            
+            <div class="flex flex-col lg:flex-row gap-12">
+                <div class="lg:w-1/2">
+                    <div class="bg-gray-50 rounded-xl p-8 h-full">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-6">Contact Information</h3>
+                        
+                        <div class="space-y-6">
+                            <div class="flex items-start">
+                                <div class="bg-primary bg-opacity-10 p-3 rounded-full mr-4">
+                                    <i data-feather="phone" class="text-primary w-5 h-5"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-gray-800">Phone</h4>
+                                    <a href="tel:0712584684" class="text-gray-600 hover:text-primary transition">071 258 4684</a>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="bg-primary bg-opacity-10 p-3 rounded-full mr-4">
+                                    <i data-feather="mail" class="text-primary w-5 h-5"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-gray-800">Email</h4>
+                                    <a href="mailto:info@plumberspretoriaeast.co.za" class="text-gray-600 hover:text-primary transition">info@plumberspretoriaeast.co.za</a>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="bg-primary bg-opacity-10 p-3 rounded-full mr-4">
+                                    <i data-feather="map-pin" class="text-primary w-5 h-5"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-gray-800">Service Area</h4>
+                                    <p class="text-gray-600">Pretoria East & North West</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="bg-primary bg-opacity-10 p-3 rounded-full mr-4">
+                                    <i data-feather="clock" class="text-primary w-5 h-5"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-gray-800">Hours</h4>
+                                    <p class="text-gray-600">24 hours / 7 days a week</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-10">
+                            <h4 class="font-semibold text-gray-800 mb-4">Follow Us</h4>
+                            <div class="flex space-x-4">
+                                <a href="#" class="bg-gray-200 hover:bg-primary hover:text-white p-3 rounded-full transition">
+                                    <i data-feather="facebook" class="w-5 h-5"></i>
+                                </a>
+                                <a href="#" class="bg-gray-200 hover:bg-primary hover:text-white p-3 rounded-full transition">
+                                    <i data-feather="instagram" class="w-5 h-5"></i>
+                                </a>
+                                <a href="#" class="bg-gray-200 hover:bg-primary hover:text-white p-3 rounded-full transition">
+                                    <i data-feather="twitter" class="w-5 h-5"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="lg:w-1/2">
+                    <div class="bg-gray-50 rounded-xl p-8 h-full">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-6">Send Us a Message</h3>
+                        <form action="https://formsubmit.co/info@plumberspretoriaeast.co.za" method="POST" class="space-y-6">
+                            <input type="hidden" name="_subject" value="New Contact Form Submission">
+                            <input type="hidden" name="_next" value="https://plumberspretoriaeast.co.za/thank-you.html">
+                            
+                            <div>
+                                <label for="name" class="block text-gray-700 font-medium mb-2">Your Name</label>
+                                <input type="text" id="name" name="name" required 
+                                       class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-primary outline-none transition">
+                            </div>
+                            
+                            <div>
+                                <label for="phone" class="block text-gray-700 font-medium mb-2">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" required 
+                                       class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-primary outline-none transition">
+                            </div>
+                            
+                            <div>
+                                <label for="email" class="block text-gray-700 font-medium mb-2">Email Address</label>
+                                <input type="email" id="email" name="email" 
+                                       class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-primary outline-none transition">
+                            </div>
+                            
+                            <div>
+                                <label for="service" class="block text-gray-700 font-medium mb-2">Service Needed</label>
+                                <select id="service" name="service" 
+                                        class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-primary outline-none transition">
+                                    <option value="">Select a service</option>
+                                    <option value="Emergency Plumbing">Emergency Plumbing</option>
+                                    <option value="Blocked Drains">Blocked Drains</option>
+                                    <option value="Geyser Repairs">Geyser Repairs</option>
+                                    <option value="Burst Pipes">Burst Pipes</option>
+                                    <option value="Leaking Taps">Leaking Taps</option>
+                                    <option value="Bathroom Renovations">Bathroom Renovations</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                            </div>
+                            
+                            <div>
+                                <label for="message" class="block text-gray-700 font-medium mb-2">Message</label>
+                                <textarea id="message" name="message" rows="4" 
+                                          class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-primary outline-none transition"></textarea>
+                            </div>
+                            
+                            <button type="submit" class="w-full bg-primary hover:bg-blue-700 text-white px-6 py-4 rounded-lg font-semibold transition">
+                                Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-16 rounded-xl overflow-hidden">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3593.210318477921!2d28.1808927!3d-25.7275265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ebfd9e9d60f4691%3A0x7067529d717de4e7!2sPlumbers%20Pretoria%20East%20North%20West!5e0!3m2!1sen!2sza!4v1691234567890!5m2!1sen!2sza" 
+                        width="100%" 
+                        height="450" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-10">
+                <div>
+                    <div class="flex items-center mb-4">
+                        <i data-feather="tool" class="text-primary mr-2 w-8 h-8"></i>
+                        <h3 class="text-xl font-bold">Plumbers Pretoria East & North West</h3>
+                    </div>
+                    <p class="text-gray-400 mb-4">
+                        Your trusted local plumbing experts serving Pretoria East and North West with reliable, professional service.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <i data-feather="facebook" class="w-5 h-5"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <i data-feather="instagram" class="w-5 h-5"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <i data-feather="twitter" class="w-5 h-5"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#services" class="text-gray-400 hover:text-white transition">Services</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-white transition">About Us</a></li>
+                        <li><a href="#testimonials" class="text-gray-400 hover:text-white transition">Testimonials</a></li>
+                        <li><a href="#contact" class="text-gray-400 hover:text-white transition">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Services</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Emergency Plumbing</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Blocked Drains</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Geyser Repairs</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Bathroom Renovations</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Contact Us</h4>
+                    <ul class="space-y-2">
+                        <li class="flex items-start">
+                            <i data-feather="phone" class="text-primary mr-2 mt-1 w-4 h-4"></i>
+                            <a href="tel:0712584684" class="text-gray-400 hover:text-white transition">071 258 4684</a>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="mail" class="text-primary mr-2 mt-1 w-4 h-4"></i>
+                            <a href="mailto:info@plumberspretoriaeast.co.za" class="text-gray-400 hover:text-white transition">info@plumberspretoriaeast.co.za</a>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="map-pin" class="text-primary mr-2 mt-1 w-4 h-4"></i>
+                            <span class="text-gray-400">Pretoria East & North West</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-500 text-sm mb-4 md:mb-0">
+                    &copy; 2023 Plumbers Pretoria East & North West. All rights reserved.
+                </p>
+                <div class="flex space-x-6">
+                    <a href="#" class="text-gray-500 hover:text-white text-sm transition">Privacy Policy</a>
+                    <a href="#" class="text-gray-500 hover:text-white text-sm transition">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/27712584684" class="fixed bottom-6 right-6 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition z-50">
+        <i data-feather="message-square" class="w-6 h-6"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script>
+        // Mobile menu toggle
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        });
+
+        // FAQ toggle functionality
+        document.querySelectorAll('.faq-toggle').forEach(button => {
+            button.addEventListener('click', () => {
+                const faq = button.closest('.bg-white');
+                const content = faq.querySelector('.faq-content');
+                const icon = button.querySelector('i');
+                
+                content.classList.toggle('hidden');
+                icon.classList.toggle('rotate-180');
+            });
+        });
+
+        // Initialize animations
+        document.addEventListener('DOMContentLoaded', function() {
+            feather.replace();
+            
+            // Animate elements on scroll
+            const animateOnScroll = function() {
+                const elements = document.querySelectorAll('[data-aos]');
+                elements.forEach(el => {
+                    const elTop = el.getBoundingClientRect().top;
+                    const isVisible = (elTop - window.innerHeight) < 0;
+                    
+                    if (isVisible) {
+                        el.style.opacity = '1';
+                        el.style.transform = 'translateY(0)';
+                    }
+                });
+            };
+            
+            // Set initial styles for animated elements
+            document.querySelectorAll('[data-aos]').forEach(el => {
+                el.style.opacity = '0';
+                el.style.transform = 'translateY(20px)';
+                el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            });
+            
+            window.addEventListener('scroll', animateOnScroll);
+            animateOnScroll(); // Run once on load
+        });
+    </script>
+</body>
+</html>
